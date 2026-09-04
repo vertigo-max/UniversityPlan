@@ -1,0 +1,9 @@
+# 2028 대입개편 대비 커리큘럼 플래너
+# 설치: pip install -r requirements.txt
+# 실행: streamlit run app.py
+
+streamlit>=1.32        # 대시보드 UI (동작 확인: 1.63.0)
+pandas>=2.0            # 표·차트 데이터 가공 (동작 확인: 3.0.5)
+plotly>=5.18           # 타임라인·누적영역·막대 차트 (동작 확인: 7.0.0)
+openai>=1.30           # ChatGPT 호출 (동작 확인: 3.8.0)
+python-dotenv>=1.0     # .env에서 OPENAI_API_KEY 로드 (동작 확인: 1.2.3)
